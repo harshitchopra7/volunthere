@@ -1,0 +1,92 @@
+/* .card {
+    background-color: lightgreen;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 40px;
+    margin: 20px;
+    height: 50vh;
+}
+.card > img {
+    height: 10vh;
+} */
+
+
+/* Styling for body and container*/
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    padding-top: 53px;
+    background-color: var(--secondary-color);
+    font-size: 14pt;
+    color: var(--main-color);
+    /*border-radius: 20px;*/
+}
+
+.container-fluid input,
+.container-fluid input:active,
+.container-fluid input:focus,
+.container-fluid textarea,
+.container-fluid textarea:active,
+.container-fluid textarea:focus,
+.container-fluid select {
+    min-width: 200px;
+    border: 2px solid var(--main-color);
+    border-radius: 20px;
+    padding: 3px 7px;
+    outline: none;
+    resize: None;
+    margin: 5px;
+}
+
+.container-fluid input:hover,
+.container-fluid textarea:hover,
+.container-fluid select:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.637);
+}
+
+.card {
+    background-color: #F8F8F8;
+    display: inline-block; 
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.name {
+    padding-top: 10px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.title {
+    font-size: 2.1rem;
+}
+
+.description {
+    font-size: 1.6rem;
+}
+
+.btn-style {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.btn-style:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-stylee {
+    background-color:black;
+    color: white;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.btn-stylee:hover {
+    background-color:white;
+    color: black;
+}

@@ -1,0 +1,31 @@
+.aboutus {
+    margin-top: 100px;
+}
+
+.card-image {
+    width: 50vh;
+    margin: 10px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 992px ) {
+    .card {
+        width: 50%;
+    }
+    .card-container {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px ) {
+    .card {
+        width: 50%;
+    }
+    .card-container {
+        width: 50%;
+    }
+}

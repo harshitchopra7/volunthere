@@ -1,0 +1,43 @@
+.nav-item a:hover {
+    background-color: inherit !important;
+    cursor: pointer;
+}
+
+.logo-section {
+    font-size: 20pt;
+    padding: 0px;
+    margin: 0px;
+}
+
+.left-section {
+    text-align: left;
+    float: right;
+    font-size: 16pt;
+    margin: 8px;
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+    opacity: 100% !important;
+}
+
+.navbar {
+    font-family: var(--secondary-font);
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+    opacity: 1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.363);
+}
+.navbar-toggle {
+    border: 1px solid var(--main-color);
+    padding: 10px;
+}
+
+#applyBtn {
+    background-color: var(--third-color);
+}
+
+#applyBtn:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.637);
+}

@@ -1,0 +1,34 @@
+
+.footer-above {
+    color: var(--secondary-color);
+    padding: 5px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+}
+
+.btn-social {
+    color: var(--secondary-color);
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 45px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    margin: 5px;
+}
+
+.btn-social:hover,
+.btn-social:focus,
+.btn-social:active {
+    color: var(--main-color);
+    background: var(--secondary-color);
+}
+
+footer {
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}

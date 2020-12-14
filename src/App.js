@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";              
+import 'tachyons';
+import Navbar from './components/Navbar';
+import HomePage from './components/HomePage';
+import Footer from './components/Footer';
+import Opportunities from './components/Opportunities';
+import JoinUs from './components/JoinUs';
+import AboutUs from './components/AboutUs';
+// import OpportunitiesCard from './components/OpportunitiesCard';
+import Apply from './components/Apply';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Router>
+        
+        <Route exact path="/">
+          <Navbar />
+          <HomePage />
+          <Footer />
+        </Route>
+
+        <Route path="/opportunities">
+          <Navbar />
+          <Apply />
+          <Footer />
+        </Route>
+
+        <Route path="/joinus">
+          <Navbar />
+          <JoinUs />
+          <Footer />
+        </Route>
+
+      </Router>
+      
     </div>
   );
 }
